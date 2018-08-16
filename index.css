@@ -56,3 +56,29 @@ p {
 
 }
 
+.horizontal-flex {
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    justify-content: space-around;
+
+}
+
+.my_name {
+    padding: 20px 5px;
+    background-color: lightblue;
+    color: black;
+    font-size: 30px;
+
+
+}
+
+.links{
+    height: 100%;
+    color: black;
+    align-content: center;
+    padding: 30px 5px;
+}
