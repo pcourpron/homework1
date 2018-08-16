@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Portfolio site</title>
+    <title>Portfoli site</title>
     <link rel='stylesheet' type='text/css' href ='reset.css'>
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -14,7 +14,7 @@
 </head>
 <body id='body'>
 <!-- Nav bar-->
-<nav class="navbar navbar-expand-md fixed-top navbar-light bg-light" id='navbar'>
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light" id='navbar'>
         <a class="navbar-brand" id='navbar-brand' href="index.html">Pierre Courpron</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -35,22 +35,24 @@
     </nav>
 
     <div class ='vertical-flex'>
-        <h2>About Me</h2>
+        <h2>Contact</h2>
         <div class = 'break'></div>
-        <img src="assets/images/pic.jpg" id='my_pic'>
-        <p>Hi There! <br> My name is Pierre Courpron! I graduated in 2016 from UCLA with a degree 
-            in biophysics. In the year following my graduation, I moved to France and became 
-            a professional French rugby player.</p>  
-        <p>
-            Since coming back to the United States, I was a Data Analyst at a local health and 
-            wellness startup named Next Health. I'm currently taking a bootcamp at UCLA to become
-            a full stack web developper. 
-        </p>
-        <p>
-            In the coming weeks, we'll we moving away from html, css and javascript and to languages 
-            like React, Node.js, Mongodb and others. I'm extremely excited to get to working with these
-            languages and expanding my coding knowledge.
-        </p>
+
+        <form action="mailto:someone@example.com?Subject=fullname">
+            Name:<br>
+            <input type="text" name="fullname" placeholder="Mickey Mouse">
+            <br><br>
+            Email:<br>
+            <input type="text" name="email" placeholder="Email">
+            <br><br>
+            Message:<br>
+            <textarea rows="4" cols="50" name ='message' placeholder="Your message here"></textarea>
+
+            <br><br>
+           
+            <input type="submit" value="Submit">
+        </form> 
+ 
     </div>
 
 
